@@ -11,5 +11,7 @@ public class package2 {
 		this.nombre=nombre;
 	}
 	
-
+ public String getNombre() {
+	 return this.nombre;
+ }
 }
