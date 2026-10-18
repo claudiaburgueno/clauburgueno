@@ -14,4 +14,9 @@ public class package2 {
  public String getNombre() {
 	 return this.nombre;
  }
+ 
+ public int num ( int num) {
+	 return this.num;
+ }
+ 
 }
