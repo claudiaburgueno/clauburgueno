@@ -15,8 +15,12 @@ public class package2 {
 	 return this.nombre;
  }
  
- public int num ( int num) {
+ public int getNum ( int num) {
 	 return this.num;
+ }
+ 
+ public void setNombre (String nombre) {
+	 this.nombre=nombre;
  }
  
 }
