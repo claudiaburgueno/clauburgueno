@@ -22,5 +22,9 @@ public class package2 {
  public void setNombre (String nombre) {
 	 this.nombre=nombre;
  }
+ public void setNum(int num) {
+	 this.num=num;
+	 
+ }
  
 }
