@@ -4,7 +4,7 @@ public class package2 {
 	
 	private int num;
 	private String nombre;
-	
+	private double precio;
 	
 	public package2 (int num,String nombre) {
 		this.num=num;
@@ -26,5 +26,7 @@ public class package2 {
 	 this.num=num;
 	 
  }
+ 
+ 
  
 }
