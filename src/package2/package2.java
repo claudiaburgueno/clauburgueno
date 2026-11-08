@@ -27,6 +27,10 @@ public class package2 {
 	 
  }
  
+ public double getPrecio() {
+	 return this.precio;
+ }
+ 
  
  
 }
