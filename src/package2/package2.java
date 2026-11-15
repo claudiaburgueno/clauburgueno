@@ -1,14 +1,18 @@
 package package2;
 
+import java.util.Map;
+
 public class package2 {
 	
 	private int num;
 	private String nombre;
-	private double precio;
+	private int precio;
+	private Map<String, Integer>  asociacion; 
 	
-	public package2 (int num,String nombre) {
+	public package2(int num,String nombre) {
 		this.num=num;
 		this.nombre=nombre;
+		this.asociacion=new HashMap<String,Integer>();
 	}
 	
  public String getNombre() {
@@ -31,6 +35,8 @@ public class package2 {
 	 return this.precio;
  }
  
- 
+ public void añade (String nombre,int precio) {
+	 asociacion.put(nombre, precio);
+ }
  
 }
